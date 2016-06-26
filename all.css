@@ -56,10 +56,10 @@
 	    }
 	    .favicon-log a{
 	    	text-decoration:none;
-	    	color: #fff;
+	    	color: #bebebe;
 	    }
         .favicon-log a:hover{
-            color:#40e0d0;
+            color:#fff;
             text-decoration:none;
         }
 	    .favicon-num{
@@ -67,6 +67,7 @@
             text-align: center;
 	    }
 	    .favicon-character{
+            color: #fff;
 	    	font-size: small;
 	    }
         .top-navigation{
@@ -82,8 +83,11 @@
         	padding-left: 35px;
         	margin-top: 10px;
         }
+        .top-navigation a{
+            color: #2894ff;
+        }
         .top-navigation a:hover{
-            color: #40e0d0;
+            color: #337AB7;
         }
         .content{
         	width: 700px;
