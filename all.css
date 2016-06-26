@@ -23,8 +23,7 @@
             filter:Alpha(opacity=60); 
             background:#fff;
             padding-top: 30px;
-            position: fixed;
-            top: 0px;
+            position: absolute;
 	    }
 	    .favicon-img{
 	    	width:100px; 
@@ -72,8 +71,8 @@
         	padding:5px;
             background:rgba(255, 255, 255, 0.1)!important;
             filter:Alpha(opacity=60);
-            position: fixed;
-            top: 360px; 
+            position: absolute;
+            top: 360px;
              
         }
         .top-navigation span{
