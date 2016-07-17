@@ -1,14 +1,13 @@
-            *{
+        *{
         	margin: 0;
         	border: 0;
         	padding:0;
-            }
-            body{
+        }
+        body{
 		    background-image: url(images/20121109142600_hrPJs.jpeg);
             background-attachment: fixed;
             background-size: cover;
             background-position: center;
-
 	    }
 	    .all-border{
 	    	width: 900px;
@@ -112,6 +111,7 @@
         	width: 600px;
         	margin: 0 auto;
             padding-top: 20px;
+            color: #555555;
         }
         .content-border li{
             font-size: large;
@@ -129,7 +129,7 @@
         .table-striped tbody td:nth-child(odd) {
             padding-left: 30px;
         }
-         .last{
+        .last{
             width: 600px;
             height: 400px;
             margin: 0 auto;
@@ -165,4 +165,22 @@
         .last-img img{
             width: 300px;
             height: 240px;
+        }
+        .content-html{
+            font-size: x-large;
+            color: red;
+            text-decoration:underline;
+        }
+        .content-js{
+            font-size: large;
+        }
+        .content-classify{
+            margin-top: 20px;
+            text-decoration: underline;
+        }
+        .content-log a{
+            color: #555555;
+        }
+        .content-log li{
+            margin-top: 20px;
         }
