@@ -1,0 +1,285 @@
+*{
+	        margin:0px;
+		    border:0px;
+		    padding:0px;
+	    }
+	    .navigation-top{
+	    	height: 50px;
+	    	background-color: #41B9D4;
+	    	text-align: center;
+	    	line-height:50px;
+	    	overflow:hidden
+	    }
+	    .navigation-border{
+	    	width: 900px;
+	    	margin: 0 auto;
+	    }
+	    .log{
+	    	font-size: 30px;
+	    	font-weight: bold;
+	    	color: #fff;
+	    	text-decoration: none;
+	    	float: left;
+	    	
+	    } 
+	    .register-box{
+	    	background-color: rgba(100, 100, 100, 0.6);	    	 
+	    	height:100%;
+	    	position:absolute;
+	    	width:100%;
+	    	top:0; 
+	    	z-index:1;
+	    	display: none;
+	    }
+	    .register-border{
+	    	background-color: #fff;
+	    	width: 400px;
+	    	height: 350px;
+	    	margin: auto;
+	    	position: relative;
+	    	top: 20%;
+	    }
+	    .border-text{
+	    	width: 302px;
+	    	margin-left: 50px;	    	
+	    }
+	    .register-top{
+	    	float: left;
+	    	font-weight: bolder;
+	    	font-size: x-large;
+	    	color: #3F89EC;
+	    	margin-top: 15px;
+	    	margin-bottom: -5px;
+	    }
+	    .register-open{
+	    	width: 50px;
+	    	height: 62px;
+	    	background: #398BFB;
+	    	font-size: large;
+	    	font-weight: bolder;
+	    	color: #fff;
+	    	float: right;
+	    }
+	    .register-close{
+	    	float: right;
+	    	font-weight: bolder;
+	    	font-size: x-large;
+	    	color: #3F89EC;
+	    	background: #fff;
+	    	margin-top: 15px;
+	    	margin-bottom: -5px;
+	    }
+	    .register-input input{
+	    	width: 300px;
+	    	height: 40px;
+	    	border: 1px solid #000;
+	    	margin-top: 30px;
+	    	margin-bottom: 10px;
+	    	padding-left: 10px;
+	    	font-size: 15px;
+	    }
+	    .register-check{
+	    	font-size: small;
+	    	float: left;
+	    	margin-bottom: 20px;
+	    }
+	    .register-check input{
+	    	vertical-align:middle;
+	    }
+	    .register-forget{
+	    	color: #1B66C7;
+	    	font-weight: bold;
+	    	font-size: small;
+	    	text-decoration: none;
+	    	float: right;
+	    }
+	    .register-button{
+            width: 300px;
+            height: 40px;
+            background: #3F89EC;
+            color: #fff;
+            border: 1px solid #3F89EC;
+            border-radius:5px;
+            font-size: large;
+            font-weight: bolder;
+	    }
+	    .register-register{
+	    	color: #1B66C7;
+	    	font-weight: bold;
+	    	font-size: small;
+	    	text-decoration: none;
+	    	float: right;
+	    	margin-top: 10px;
+	    }
+	    .date{
+	    	background-color: black;
+	    	text-align: center;
+	    }
+	    .x{
+	    	width: 900px;
+	    	height: 190px;
+	    	margin: 0 auto;
+	    	margin-top: 20px;
+	    	margin-bottom: 30px;
+	    	border: 0;
+	    	position:relative;
+	    }
+	    .tab-left1{
+	    	text-align: center;
+	    	width: 20px;
+	    	line-height:20px;
+	    	padding:10px 0 10px 0;
+	    	background: #D1DAE1;
+	    }
+	    .tab-left1 a{
+	    	color: #376A77;
+	    	text-decoration:none
+	    }
+	    .tab-left2{
+	    	text-align: center;
+	    	width: 20px;
+	    	line-height:20px;
+	    	padding:10px 0 10px 0;
+	    	background: #E6EAED;
+	    }
+	    .tab-left2 a{
+	    	color: #376A77;
+	    	text-decoration:none
+	    }
+        .tab-left1-img{
+            width: 300px;
+            height: 180px;
+            position: absolute;
+            top: 0;
+	    	left: 20px;
+            display: block;
+        }
+        .tab-left2-img {
+            width: 300px;
+            height: 180px;
+            position: absolute;
+            top: 0;
+	    	left: 20px;
+            display: none;       
+        }      
+       .tab-left3-img {
+            width: 300px;
+            height: 180px;
+            position: absolute;
+            top: 0;
+	    	left: 20px;
+            display: none;
+        }
+	    .tab-left4{
+        text-align: center;
+        width: 40px;
+        line-height:40px;
+        padding:10px 0 10px 0;
+        background: #D1DAE1;
+        
+               
+      }
+      .tab-left4 a{
+        color: #376A77;
+        text-decoration:none
+      }
+      
+      
+      .tab-left5{
+        text-align: center;
+        width: 40px;
+        line-height:40px;
+        padding:10px 0 10px 0;
+        background: #E6EAED;
+           
+      }
+      .tab-left5 a{
+        color: #376A77;
+        text-decoration:none
+      }
+      .tab-left4-img {
+        width: 280px;
+        height: 180px;
+        position: absolute;
+        top: 0;
+        right: 40px;
+        display: block;
+      }
+      .tab-left5-img {
+        width: 280px;
+        height: 180px;
+        position: absolute;
+        top: 0;
+        right: 40px;
+        display: none;
+      }
+      .tab-left6-img {
+        width: 280px;
+        height: 180px;
+        position: absolute;
+        top: 0;
+        right: 40px;
+        display: none;
+      }
+	    .tab-left7-img{
+	    	
+	    	text-align: center;
+	    }
+	    .tab-left7-img img{
+	    	width: 280px;
+	    	height: 150px;
+	    }
+	    .aa{
+	    	position: absolute;
+	    }
+	    .bb{
+	    	position: absolute;
+	    	top: 0px;
+	    	right: 0px;
+	    }
+	    .table{
+	    	width: 900px;
+	    	margin: 0 auto;
+	    	text-align: center;
+	    }
+	    .table-striped tbody tr:nth-child(odd) td {
+            background-color: #F4F4F4;
+        }
+        .table-striped tbody td:nth-child(odd) {
+            padding-left: 30px;
+        }
+        .last{
+        	width: 770px;
+        	height: 400px;
+        	margin: 0 auto;
+        	margin-top: 30px;
+        	position: relative;
+        }
+        
+        .last li{
+        	list-style-type:none;
+        	padding-left: 5px;
+        	font-size: x-large;
+        	font-weight: bold;
+        }
+        .last p{
+        	font-size: large;
+        	margin: 10px 10px 10px 10px;
+        }
+        .last-txt1{
+        	width: 320px;
+        	position: absolute;
+        }
+        .last-txt2{
+        	position: relative;
+        	top: 250px;
+        	margin-top: 10px;
+        }
+        .last-img{
+        	position: absolute;
+            right: 0;
+        }
+        .last-img img{
+        	width: 450px;
+        	height: 250px;
+        }
